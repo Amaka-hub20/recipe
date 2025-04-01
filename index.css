@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+main {
+  background-color: hsl(330, 100%, 98%);
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 20px;
+  padding: 1.3rem 2rem;
+}
+
+img {
+  width: 460px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+ul li {
+  line-height: 1.7;
+}
+
+/* The styling of H2 Tags */
+.forth-section h2,
+.third-section h2,
+.fifth-section h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+}
+
+
+.first-section p {
+  margin-top: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+/* Second-section styling */
+.second-section {
+  background-color: hsl(30, 54%, 90%);
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+
+.second-section ul li, .third-section ul li {
+  list-style-position: inside;
+}
+
+.second-section li,
+.forth-section p {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
+}
+
+.second-section li span,
+.third-section li {
+  color: hsl(30, 10%, 34%);
+}
+
+/* Third-section styling */
+.third-section {
+  padding: 1rem;
+}
+
+
+/* Forth-section start */
+.forth-section p {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: hsl(14, 45%, 36%);
+}
+
+.forth-section .instruction {
+  color: hsl(24, 5%, 18%);
+  font-family: "Outfit", sans-serif;
+}
+
+.forth-section .details {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+/* Forth-section end */
+
+
+/* fifth-section start */
+.fifth-section p {
+  margin-top: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.value-name {
+  margin-top: 25px;
+}
+
+.value-name p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+.value-name p span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  width: 50%;
+}
+/* fifth-section end */
+
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+/* MOBILE DESIDN */
+@media (max-width: 768px) {
+ 
+ 
+  main {
+    width: 400px;
+    padding: 1rem 2.3rem;
+  }
+  img {
+    width: 360px;
+  }
+
+
+}
